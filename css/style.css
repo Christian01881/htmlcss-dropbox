@@ -19,7 +19,7 @@
     --logo-b:#0d2481;
     --logo-y:#ffd830;
     --bg-footer:#000000;
-    --button-hover:#92ceff;
+    --button-hover:#44a2ef;
 
 }
 
@@ -28,12 +28,12 @@
 }
 
 .container-big{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 .container-small{
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -99,8 +99,40 @@ nav img{
     background-color: var(--bg-header);
 }
 
+h1{
+    font-size: 59px ;
+}
+
+.decoration-n{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.p-m{
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.p2-m{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 
+main div i{
+    color: var(--bg-footer);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.jumbo{
+    width: 650px;
+}
+
+.img-relative{
+    position: relative;
+    top: 60px;
+}
 
 
 
