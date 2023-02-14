@@ -20,6 +20,7 @@
     --logo-y:#ffd830;
     --bg-footer:#000000;
     --button-hover:#44a2ef;
+    --bg-box:#f5f5f5;
 
 }
 
@@ -133,6 +134,137 @@ main div i{
     position: relative;
     top: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+.w-marche{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.w-box{
+    width: 50%;
+    height: 50%;
+}
+
+.box1{
+    background-color: var(--logo-g);
+}
+
+.box2{
+    background-color: var(--logo-p);
+}
+
+.box3{
+    background-color: var(--logo-lb);
+}
+
+.box4{
+    background-color: var(--logo-r);
+}
+
+.m-flex{
+    flex-flow: row wrap;
+}
+
+.obj{
+    width: 50%;
+}
+
+.bg-box{
+    background-color: var(--bg-box);
+}
+
+.box5{
+    background-color: var(--logo-cherry);
+}
+
+.box6{
+    background-color: var(--logo-lg) ;
+}
+
+.box7{
+    background-color: var(--logo-b);
+}
+
+.box8{
+    background-color: var(--logo-y) ;
+}
+
+.main-hr{
+    margin-top: 30px;
+    color: grey;
+    width: 70px;
+    margin-left: 30px;
+}
+
+.drop-sec{
+    color: var(--logo-p);
+}
+
+.white-button{
+    font-size: 13px;
+    background-color: var(--white);
+    color: var(--bg-footer);
+    text-decoration: none;
+    height: 40px;
+    padding: 10px 15px;
+}
+
+.s-bet{
+    justify-content: space-between ;
+}
+
+.p-sec{
+    padding: 100px 0;
+}
+
+.h2-font{
+    font-size: 30px;
+    width: 60%;
+}
+
+
+
+
+
+
+
+.p-bot{
+ padding-bottom: 40px;
+}
+
+.font-faq{
+    font-size: 13px
+}
+
+
+.p-chevron{
+    padding-left: 170px;
+}
+
+.p-faq{
+    padding: 30px 0;
+    border-top: 1px solid grey ;
+    border-bottom: 1px solid grey;
+}
+
+.p-none{
+    display: none;
+}
+
+.p-chevron:hover +  .p-none{
+    display: block;
+    margin-top: 20px;
+}
+
 
 
 
