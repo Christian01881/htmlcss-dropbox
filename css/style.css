@@ -21,6 +21,7 @@
     --bg-footer:#000000;
     --button-hover:#44a2ef;
     --bg-box:#f5f5f5;
+    --border:#d0d0d3;
 
 }
 
@@ -83,6 +84,7 @@ nav img{
     background-color: var(--button-hover);
 }
 
+/* Main */
 .main-bg{
     background-color: var(--bg-header);
     padding-top: 180px;
@@ -127,7 +129,7 @@ main div i{
 }
 
 .jumbo{
-    max-width: 48vw;
+    width: 48vw;
 }
 
 .img-relative{
@@ -135,10 +137,106 @@ main div i{
     top: 60px;
 }
 
+/* Business Section */
 
+.m-h2-font{
+    font-size: 30px;
+}
 
+.radio{
+    width: 20px;
+    height: 20px;
+    border: 6px solid var(--bg-button-b);
+    border-radius: 50%;
+}
 
+.radio2{
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+}
+  
+.p-right{
+    padding-right: 50px;
+}
 
+.p-top{
+    padding-top: 50px;
+}
+
+.card{
+    width:30%;
+    border: 1px solid var(--border);
+}
+
+.m-top{
+    margin-top: 50px;
+}
+
+.top-card{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+}
+
+.card-small{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.cash-p{
+    padding-top: 15px;
+}
+
+.font-grey{
+    color: grey;
+}
+
+.ul-p{
+    padding-top: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+.m-right{
+    margin-right: 10px;
+}
+
+.v-align{
+    vertical-align: 0px;
+}
+
+.d-inlb{
+    display: inline-block;
+}
+
+.a-none{
+    text-decoration: none;
+}
+
+.link{
+    color: var(--logo-b);
+}
+
+.b-bot{
+    color: var(--border);
+    width: 80px;
+}
+
+.check{
+    color: var(--logo-lb);
+}
 
 
 
@@ -152,6 +250,7 @@ main div i{
 .w-box{
     width: 50%;
     height: 50%;
+    position: relative;
 }
 
 .box1{
@@ -176,6 +275,10 @@ main div i{
 
 .obj{
     width: 50%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
 }
 
 .bg-box{
@@ -200,7 +303,7 @@ main div i{
 
 .main-hr{
     margin-top: 30px;
-    color: grey;
+    color: var(--border);
     width: 70px;
     margin-left: 30px;
 }
@@ -252,8 +355,8 @@ main div i{
 
 .p-faq{
     padding: 30px 0;
-    border-top: 1px solid grey ;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid var(--border) ;
+    border-bottom: 1px solid var(--border);
 }
 
 .p-none{
@@ -295,7 +398,7 @@ footer li{
 }
 
 footer hr{
-    color: grey;
+    color: var(--border);
     width: 100px;
     margin-top: 90px;
     margin-left: 25px;
