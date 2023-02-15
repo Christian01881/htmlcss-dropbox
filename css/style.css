@@ -296,6 +296,26 @@ ul{
     color: rgb(139, 137, 137);
 }
 
+/* Operazioni Dropbox */
+
+.tips{
+    width: 30%;
+    padding-top: 50px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.L-div{
+    margin-top: 100px;
+}
+
+h2.dim{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
 
 
 
@@ -396,12 +416,7 @@ ul{
     width: 60%;
 }
 
-
-
-
-
-
-
+/* FAQ section */
 .p-bot{
     padding-bottom: 40px;
 }
@@ -429,12 +444,6 @@ ul{
     display: block;
     margin-top: 20px;
 }
-
-
-
-
-
-
 
 /* Footer */
 .bg-footer{
