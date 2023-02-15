@@ -25,6 +25,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .debug{
     border: 2px solid orange;
 }
@@ -316,9 +320,6 @@ h2.dim{
     margin-bottom: 50px;
 }
 
-
-
-
 /* Marche */
 .w-marche{
     width: calc(100% / 3);
@@ -414,6 +415,23 @@ h2.dim{
 .h2-font{
     font-size: 30px;
     width: 60%;
+}
+
+.fit{
+    max-width: 50%;
+    padding: 30px 0 0 30px;
+}
+
+p.top-left{
+    padding: 30px 0 0 30px;
+}
+
+p.hidden{
+    padding-top: 200px;
+}
+
+.overflow{
+    overflow-y: auto;
 }
 
 /* FAQ section */
