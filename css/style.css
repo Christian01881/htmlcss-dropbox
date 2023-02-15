@@ -48,6 +48,7 @@ nav{
     height: 80px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .d-flex{
@@ -217,10 +218,6 @@ ul{
     vertical-align: 0px;
 }
 
-.d-inlb{
-    display: inline-block;
-}
-
 .a-none{
     text-decoration: none;
 }
@@ -263,11 +260,46 @@ ul{
     padding-bottom: 20px;
 }
 
-/* Partner */
+/* Partner section */
+.box60{
+    width: 60%;
+}
+
+.box40{
+    width: 35%;
+}
+
+.h3-p-top{
+    padding-top: 60px;
+}
+
+.div-small{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.white-button2{
+    font-size: 13px;
+    background-color: var(--white);
+    color: var(--bg-footer);
+    text-decoration: none;
+    height: 40px;
+    padding: 10px 15px;
+    border: 1px solid var(--bg-footer);
+}
+.m-div{
+    margin-top: 30px;
+}
+
+.white-button2:hover{
+    color: rgb(139, 137, 137);
+}
 
 
 
 
+/* Marche */
 .w-marche{
     width: calc(100% / 3);
     height: calc(100vw / 3);
@@ -345,6 +377,10 @@ ul{
     text-decoration: none;
     height: 40px;
     padding: 10px 15px;
+}
+
+.white-button:hover{
+    color: rgb(139, 137, 137);
 }
 
 .s-bet{
